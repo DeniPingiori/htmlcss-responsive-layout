@@ -23,6 +23,20 @@ footer {
 background-color: black;
 }
 
+ul.text-right {
+    list-style-type: none;
+    color:#ffff
+}
+
+ul.text-right li {
+    display: inline-block;
+    margin-top: 0px 20px;
+}
+
+ul.text-right li a {
+    text-decoration: none;
+    color: #ffff;
+}
 /************** LAYOUT CLASS ***************/
 
 .container {
@@ -103,7 +117,14 @@ background-color: black;
 }
 
 .col-80 {
-    width: calc 70%;
+    width: calc 80%;
     height: 100px;
     padding:10px;
+}
+/******************UTILITY CLASSES********/
+.btn-white {
+    background-color: #ffff;
+    color:black;
+    border-radius: 5px;
+
 }
