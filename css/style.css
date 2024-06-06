@@ -13,7 +13,7 @@ header {
 background-color: rgb(3, 168, 244);
 color:#ffff;
 padding: 15px 0px;
-/*position:fixed;*/
+/*position:fixed;
 top:0;
 left:0;
 width:100%;
@@ -28,20 +28,49 @@ footer {
 .container {
     max-width: 100%;
 }
+.container-viola {
+    max-width: 100%;
+    background-color: blueviolet;
+}
 
+.container-white {
+    max-width: 100%;
+    background-color: #ffff;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+.content-header {
+    margin:10px ;
+}
 
 .content {
-    margin:10px;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
 }
-.col-67 {
-    width: 67%;
-    background-color: blue;
+
+.col-25 {
+    width: calc(100% / 4);
+    height: 100px;
+    padding:10px;
+    background-color: blueviolet;
 }
 .col-33 {
-    width: 33%;
-    background-color: rgba(4, 240, 15, 0.781);
+    width: calc(100% / 3);
+    height: 100px;
+    padding:10px;
+}
+
+.col-50 {
+    width: calc(100% / 2);
+    height: 100px;
+    padding:10px;
+}
+.col-67 {
+    width: calc(100% / 3 * 2);
+    height: 100px;
+    padding: 10px;
 }
