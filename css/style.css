@@ -60,7 +60,7 @@ ul.text-right li a {
 }
 
 .content {
-    height: 100%;
+    height: 400px;
     background-color: aqua;
     border-radius: 20px;
     padding: 10px;
@@ -68,57 +68,47 @@ ul.text-right li a {
 
 .col-10 {
     width: calc(100%);
-    height: 100px;
     padding:10px;
     background-color: blueviolet;
 }
 .col-20 {
     width: 100%;
-    height: 100px;
     padding:10px;
 }
 .col-16 {
     width: calc(100% / 6);
-    height: 100px;
     padding:10px;
 }
 .col-25 {
     width: calc(100% / 4);
-    height: 100px;
     padding:10px;
     background-color: blueviolet;
 }
 
 .col-30 {
     width:30%;
-    height: 100px;
     padding:10px;
 }
 .col-33 {
     width: calc(100% / 3);
-    height: 100px;
     padding:10px;
 }
 
 .col-50 {
     width: calc(100% / 2);
-    height: 100px;
     padding:10px;
 }
 .col-67 {
     width: calc(100% / 3 * 2);
-    height: 100px;
     padding: 10px;
 }
 .col-70 {
     width: calc 70%;
-    height: 100px;
     padding:10px;
 }
 
 .col-80 {
     width: calc 80%;
-    height: 100px;
     padding:10px;
 }
 /******************UTILITY CLASSES********/
@@ -127,13 +117,33 @@ ul.text-right li a {
     color:black;
     border-radius: 5px;
 }
+.btn-blue {
+    background-color: #089cf9;
+    color:#ffff;
+    border-radius: 5px;
+    align-items: flex-end;
+}
 
-.images {
+.images  {
     position:relative;
     max-width: 100%;
     border-radius: 50%;
 }
 
+.images img {
+    max-width: 100%;
+}
+.text-left{
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+}
 .cards {
-    display:contents;
+    display:;
 }
