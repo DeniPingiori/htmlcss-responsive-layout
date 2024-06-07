@@ -126,7 +126,7 @@ ul.text-right li a {
 
 .images  {
     position:relative;
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 50%;
 }
 
@@ -145,5 +145,6 @@ ul.text-right li a {
     display: flex;
 }
 .cards {
-    display:;
+    display:contents;
+    align-content: start;
 }
