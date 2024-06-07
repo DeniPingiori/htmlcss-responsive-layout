@@ -133,10 +133,23 @@ ul.text-right li a {
 .images img {
     max-width: 100%;
 }
+
+.images-testimonial {
+    max-width: 100px;
+}
+.images-testimonial img {
+    position: relative;
+    max-width: 30%;
+    border-radius: 50%;
+
+}
 .text-left{
     text-align: left;
 }
 
+.text-right{
+    text-align: right;
+}
 .text-center {
     text-align: center;
 }
