@@ -126,5 +126,14 @@ ul.text-right li a {
     background-color: #ffff;
     color:black;
     border-radius: 5px;
+}
 
+.images {
+    position:relative;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.cards {
+    display:contents;
 }
